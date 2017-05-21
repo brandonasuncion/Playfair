@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 '''
 Playfair Cipher Implementation
-Brandon Asuncion
-brandonasuncion@gmail.com
+
+	Brandon Asuncion
+	brandon@suncion.tech
+
 '''
 
 import string
@@ -70,6 +72,14 @@ def playfair(key, inputfile, outputfile, encrypting=True):
 		fh.write(cipher)
 		
 	return cipher
+
+
+def main():
+	# Encrypt foo.txt -> cipher.txt
+	playfair("monarchy", "foo.txt", "cipher.txt", True)
 	
-playfair("monarchy", "test.txt", "cipher.txt", True)
-playfair("monarchy", "cipher.txt", "plaintext.txt", False)
+	# Decrypt cipher.txt -> plaintext.txt
+	playfair("monarchy", "cipher.txt", "plaintext.txt", False)
+	
+if __name__ == '__main__':
+	main()
