@@ -7,4 +7,4 @@ An optimized implementation of the Playfair Cipher
 * Letter "x" is used as padding
 
 ## Credits
-Brandon Asuncion - brandon@suncion.tech
+Brandon Asuncion - me@brandonasuncion.tech
