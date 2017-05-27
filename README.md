@@ -8,3 +8,6 @@ An optimized implementation of the Playfair Cipher
 
 ## Credits
 Brandon Asuncion - me@brandonasuncion.tech
+
+## License
+* [MIT License](https://choosealicense.com/licenses/mit/)
